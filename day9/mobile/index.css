@@ -1,0 +1,20 @@
+.a {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.b {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+  .b {
+    background-color: blue;
+  }
+  .a {
+    flex-direction: column;
+  }
+}

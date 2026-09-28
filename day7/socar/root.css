@@ -1,0 +1,13 @@
+:root {
+  /* primary-color: #354153; */
+
+  /* 컬러색상 */
+
+  --color-primary: #354153;
+
+  /* 폰트 */
+  --font-size-xl: 26px;
+
+  /* 넓이 */
+  --width-max: 1280px;
+}

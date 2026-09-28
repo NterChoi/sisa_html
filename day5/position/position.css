@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.red {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.fb {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.green {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  position: relative;
+}
+
+.blue {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  position: relative;
+  top: -30px;
+}
+
+.yellow {
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.green > span {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

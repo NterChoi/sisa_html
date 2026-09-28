@@ -1,0 +1,8 @@
+.card {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-image: url("./heungsoon-cherry-blossoms-5000242.jpg");
+  background-size: cover;
+}
